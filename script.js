@@ -1,4 +1,4 @@
-let users = ["freecodecamp", "timthetatman", "OgamingSC2", "summit1g", "jackfrags", "brunofin",  "quin69", "esl_sc2", "towelliee", "drdisrespectlive"];
+let users = ["freecodecamp", "timthetatman", "OgamingSC2", "summit1g", "jackfrags", "brunofin",  "quin69", "esl_sc2", "towelliee", "drdisrespectlive","missypwns"];
 
 const streamUrl = "https://wind-bow.gomix.me/twitch-api/streams/";
 const channelUrl = "https://wind-bow.gomix.me/twitch-api/channels/";
@@ -63,7 +63,7 @@ function loadApi() {
             "<a href='https://www.twitch.tv/" + channelName + "' target= '_blank'>" + title + "</a>" + "</h3>" +
             "<a href='https://www.twitch.tv/" + channelName + "' class='pull-right sStatus'>" +
             channelStatus1 + " </a>" + "</div>" + "<div class='col-xs-12 streamerInfo " +
-            color1 + "'>" + "<p class='pull-left'>" + "<strong>Channel Info: </strong>" +
+            color1 + "'>" + "<p class='text-center'>" + "<strong>Channel Info: </strong>" +
             status + " <strong> Currently Playing: </strong>" + game + "</p>" + "</div>");
 
         } else if (data2.error) { //if user no longer exists, display message
