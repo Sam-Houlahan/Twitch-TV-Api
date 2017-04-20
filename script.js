@@ -1,4 +1,4 @@
-let users = ["freecodecamp", "timthetatman", "OgamingSC2", "summit1g", "jackfrags", "brunofin",  "quin69", "esl_sc2", "towelliee", "drdisrespectlive","missypwns"];
+let users = ["freecodecamp", "timthetatman", "OgamingSC2", "summit1g", "jackfrags", "brunofin",  "quin69", "esl_sc2", "towelliee", "drdisrespectlive","missypwns","naguura"];
 
 const streamUrl = "https://wind-bow.gomix.me/twitch-api/streams/";
 const channelUrl = "https://wind-bow.gomix.me/twitch-api/channels/";
