@@ -1,6 +1,63 @@
-.row{
-  background: rgba(0,0,0,.45);
-  border: 5px white solid;
-  border-radius:25px;
-  margin-bottom:10px;
+body {
+  background-color: black;
+  color: white;
+}
+
+a {
+  color: white;
+}
+
+a:hover {
+  color: white;
+}
+
+.row h1 {
+  text-align: center;
+  color: white;
+  font-weight: bold;
+}
+
+.row h2 {
+  color: white;
+  text-align: center;
+}
+
+.streamer {
+  margin-top: 20px;
+  padding: 20px;
+  border-top-right-radius: 10px;
+}
+
+.streamerInfo {
+  background-color: gray;
+  padding: 5px;
+  border-top: 2px solid white;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.sImage {
+  width: 80px;
+  height: auto;
+  border-radius: 50px;
+}
+
+.sName {
+  margin-left: 20px;
+}
+
+.sStatus {
+  margin-left: 20px;
+}
+
+.red {
+  background-color: red
+}
+
+.green {
+  background-color: green
+}
+
+.gray {
+  background-color: rgba(186, 185, 185, 0.54);
 }
