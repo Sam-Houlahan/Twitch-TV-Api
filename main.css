@@ -1,6 +1,7 @@
 body {
   background-color: black;
   color: white;
+  font-family: 'Rubik', sans-serif;
 }
 
 a {
@@ -15,6 +16,7 @@ a:hover {
   text-align: center;
   color: white;
   font-weight: bold;
+  font-size: 50px;
 }
 
 .row h2 {
@@ -31,7 +33,7 @@ a:hover {
 .streamerInfo {
   background-color: gray;
   padding: 5px;
-  border-top: 2px solid white;
+  border-top: 3px solid white;
   border-bottom-right-radius: 10px;
   border-bottom-left-radius: 10px;
 }
